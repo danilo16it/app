@@ -2,7 +2,11 @@ package com.lello.orario;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.view.Menu;  
+import android.view.View;  
+import android.view.View.OnClickListener;  
+import android.widget.Button;  
+import android.content.Intent;
 
 public class Page1 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
